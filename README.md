@@ -55,6 +55,19 @@ Due to model architecture constraints, RS can correct up to **4 corrupted bytes*
 
 ## 🧪 Experimental Results
 
+## 📷 Visual Results
+
+### Stego Image vs Original
+![Stego Image Comparison](images/stego_vs_original.png)
+
+### Attack and Recovery
+![Attack Result](images/attack_result.png)
+![Recovered Message](images/recovered_result.png)
+
+> 📌 *Images are generated from ipynb document.*
+
+---
+
 ### ✔️ No Attack
 - **PSNR:** ~35 dB  
 - **LPIPS:** ~0.004  
@@ -79,19 +92,6 @@ To demonstrate the effectiveness of error correction:
 |--------|----------------|
 | Without RS | `SDEFG` ❌ |
 | With RS | `CDEFG` ✅ |
-
----
-
-## 📷 Visual Results
-
-### Stego Image vs Original
-![Stego Image Comparison](images/stego_vs_original.png)
-
-### Attack and Recovery
-![Attack Result](images/attack_result.png)
-![Recovered Message](images/recovered_result.png)
-
-> 📌 *Images are generated from Jupyter Notebook outputs.*
 
 ---
 
