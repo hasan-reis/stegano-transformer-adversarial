@@ -1,5 +1,18 @@
 # Transformer and Adversarial-Based Steganography Application
 
+## 📷 Visual Results
+
+### Stego Image vs Original
+![Stego Image Comparison](images/stego_vs_original.png)
+
+### Attack and Recovery
+![Attack Result](images/attack_result.png)
+![Recovered Message](images/recovered_result.png)
+
+> 📌 *Images are generated from ipynb document.*
+
+---
+
 This project is a **practical implementation** inspired by the academic paper:
 
 > **"A Transformer-based Adversarial Network Framework for Steganography"**  
@@ -54,19 +67,6 @@ Due to model architecture constraints, RS can correct up to **4 corrupted bytes*
 ---
 
 ## 🧪 Experimental Results
-
-## 📷 Visual Results
-
-### Stego Image vs Original
-![Stego Image Comparison](images/stego_vs_original.png)
-
-### Attack and Recovery
-![Attack Result](images/attack_result.png)
-![Recovered Message](images/recovered_result.png)
-
-> 📌 *Images are generated from ipynb document.*
-
----
 
 ### ✔️ No Attack
 - **PSNR:** ~35 dB  
